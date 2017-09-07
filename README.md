@@ -1,4 +1,4 @@
-#CNV Counter
+# CNV Counter
 
 Analyzes copy number variation (CNV) files to identify rare CNV's.
 
@@ -12,7 +12,7 @@ Usage
    and output files, and definitions of match types.
 
 
-##Description:
+## Description:
 
 There are 2 main use cases:  One is to identify rare CNV by comparing a list of
 patient CNVs with a list of control CNVs.  There are various match types
@@ -21,9 +21,9 @@ potential pathogenic CNVs, I might look for CNVs that don't or only partially
 overlap known CNVs within healthy populations.  The other use case is to
 compare patient CNVs with known pathogenic CNVs.
 
-###Match Types:
+### Match Types:
 
-####Identical
+#### Identical
 Matches within the <match> percent specified.  Checks for a two-way match
 where both the reference CNV and the tested CNV are both at least <match> percent
 matches of each other
@@ -33,7 +33,7 @@ matches of each other
      |---------------|         [ref start/end]
      S                E
 
-####Non-identical larger
+#### Non-identical larger
 the reference CNV is contained within the test CNV
 
     |----------------|         [test start/end]
@@ -41,7 +41,7 @@ the reference CNV is contained within the test CNV
         |-------|              [ref start/end]
         S       E
 
-####Non-identical smaller
+#### Non-identical smaller
 The test CNV is contained within the reference CNV
 
     |----------|          [test start/end]
@@ -49,7 +49,7 @@ The test CNV is contained within the reference CNV
   |-----------------|     [ref start/end]
   S                 E
 
-####Non-identical
+#### Non-identical
 None of the matches above apply,
  however, there is at least some overlap between the CNV's
 
@@ -60,7 +60,7 @@ None of the matches above apply,
 
 
 
-##AUTHOR
+## AUTHOR
 
 David Fasel daf2139<at>columbia.edu 05/2015.  Adapted from code by Roel Sterken 6/2009.
 
