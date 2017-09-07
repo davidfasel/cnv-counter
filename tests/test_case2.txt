@@ -1,0 +1,6 @@
+SDFGDFH
+chr1:100-200	10	99	"state2,cn=1"	case1	rs1	rs2	30
+
+     
+chr1:100-200	10	99	"state2,cn=1"	case2	rs1	rs2	30
+	

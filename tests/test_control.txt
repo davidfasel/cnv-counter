@@ -1,0 +1,6 @@
+chr1:100-200	x	x	cn=0	c1	x	x	x
+chr1:150-250	x	x	cn=0	c2	x	x	x
+chr1:190-290	x	x	cn=0	c3	x	x	x
+chr1:201-310	x	x	cn=0	c4	x	x	x
+chr1:50-250	x	x	cn=0	c4	x	x	x
+chr1:125-175	x	x	cn=0	c5	x	x	x

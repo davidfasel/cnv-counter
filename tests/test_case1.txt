@@ -1,0 +1,2 @@
+SDFGDFH
+chr1:100-200	x	x	cn=0	case1	x	x	x
